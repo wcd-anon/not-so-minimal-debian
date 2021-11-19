@@ -11,7 +11,7 @@ A choice of either a *server* or *desktop* configuration is available. Server is
 3. Run (as root) ...
 
 ```
-bash <(curl -s https://gitlab.com/dwarmstrong/not-so-minimal-debian/-/raw/master/not-so-minimal-debian.sh)
+bash <(curl -s https://gitlab.com/dwarmstrong/not-so-minimal-debian/-/raw/main/not-so-minimal-debian.sh)
 ```
 
 ## Author
