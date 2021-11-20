@@ -296,10 +296,10 @@ pkg_tools="apt-file apt-show-versions apt-utils aptitude command-not-found"
 local build_tools
 build_tools="build-essential autoconf automake checkinstall libtool"
 local console
-console="cowsay cryptsetup curl figlet firmware-misc-nonfree git gnupg htop "
-console+="keychain lolcat mlocate ncal neofetch neovim net-tools "
-console+="nmap openssh-server rsync shellcheck sl speedtest-cli tmux unzip "
-console+="wget whois zram-tools"
+console="cowsay cryptsetup curl figlet firmware-misc-nonfree git gnupg "
+console+="keychain libncurses-dev lolcat mlocate ncal neofetch neovim "
+console+="net-tools nmap openssh-server rsync shellcheck sl speedtest-cli "
+console+="tmux unzip wget whois zram-tools"
 apt-get -y install $pkg_tools $build_tools $console
 apt-file update && update-command-not-found
 # Create the mlocate database
