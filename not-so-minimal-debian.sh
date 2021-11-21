@@ -401,9 +401,10 @@ apt-get -y install $xorg $fonts
 install_openbox() {
 banner "Install Openbox window manager"
 local pkgs
-pkgs="openbox obconf menu clipit dunst dbus-x11 feh hsetroot i3lock "
-pkgs+="libnotify-bin network-manager network-manager-gnome pavucontrol "
-pkgs+="pulseaudio pulseaudio-utils rofi scrot tint2 viewnior volumeicon-alsa "
+pkgs="openbox obconf menu "
+pkgs+="diodon dunst dbus-x11 feh hsetroot i3lock libnotify-bin lximage-qt "
+pkgs+="network-manager network-manager-gnome pavucontrol-qt "
+pkgs+="pulseaudio pulseaudio-utils rofi scrot tint2 volumeicon-alsa "
 pkgs+="xfce4-power-manager"
 apt-get -y install $pkgs
 }
@@ -411,8 +412,8 @@ apt-get -y install $pkgs
 install_desktop_pkgs() {
 banner "Install desktop packages"
 local pkgs
-pkgs="alsa-utils build-essential dconf-editor default-jre espeak firefox-esr "
-pkgs+="ffmpeg gimp gimp-help-en gimp-data-extras jmtpfs lm-sensors "
+pkgs="alsa-utils build-essential default-jre espeak firefox-esr "
+pkgs+="ffmpeg gimp gimp-help-en gimp-data-extras gthumb jmtpfs lm-sensors "
 pkgs+="python3-pip qpdfview qt5-style-plugins thunderbird "
 pkgs+="transmission-qt vlc xfce4-terminal"
 apt-get -y install $pkgs
