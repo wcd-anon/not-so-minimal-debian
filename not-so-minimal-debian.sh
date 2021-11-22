@@ -413,8 +413,8 @@ install_desktop_pkgs() {
 banner "Install desktop packages"
 local pkgs
 pkgs="alsa-utils build-essential default-jre espeak firefox-esr "
-pkgs+="ffmpeg gimp gimp-help-en gimp-data-extras gthumb jmtpfs lm-sensors "
-pkgs+="python3-pip qpdfview qt5-style-plugins thunderbird "
+pkgs+="ffmpeg gimp gimp-help-en gimp-data-extras gthumb ipython3 jmtpfs "
+pkgs+="lm-sensors python3-pip qpdfview qt5-style-plugins thunderbird "
 pkgs+="transmission-qt vlc xfce4-terminal"
 apt-get -y install $pkgs
 }
