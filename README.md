@@ -2,7 +2,7 @@
 
 `not-so-minimal-debian.sh` is a script for configuring Debian GNU/Linux. It is ideally run after the first successful boot into a [minimal install](https://www.dwarmstrong.org/minimal-debian/) of Debian 11 aka "bullseye".
 
-A choice of either a *server* or *desktop* configuration is available. Server installs packages for a basic console setup, whereas desktop intalls a more complete setup with the option of either the [Openbox](https://www.dwarmstrong.org/openbox/) window manager or *Xorg* (with no desktop).
+A choice of either a *server* or *desktop* configuration is available. Server installs packages for a basic console setup, whereas desktop installs a more complete setup with the option of either the [Openbox](https://www.dwarmstrong.org/openbox/) window manager or *Xorg* (with no desktop).
 
 ## How does it work
 
