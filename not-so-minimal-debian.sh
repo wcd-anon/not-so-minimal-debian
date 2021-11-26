@@ -26,9 +26,9 @@ It is ideally run after the first boot into a minimal install [1] of
 Debian $Version aka "$Release".
 
 A choice of either a _server_ or _desktop_ configuration is available.
-Server is a basic console setup, whereas desktop is a more complete
-setup with the option of installing either _Openbox_ [2] window manager
-or _Xorg_ server (with no desktop).
+Server installs packages for a basic console setup, whereas desktop
+installs a more complete setup with the option of either the _Openbox_
+window manager [2] or _Xorg_ server (with no desktop).
 
 [1] https://www.dwarmstrong.org/minimal-debian/
 [2] https://www.dwarmstrong.org/openbox/
